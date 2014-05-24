@@ -1,31 +1,69 @@
 # -*- coding: utf-8; mode: gitignore; -*-
+
+!.gitkeep
+
 # Emacs template files
 \#*#
 *~
 
-# other files
-*.log
-
-# Object files
+# object files
 *.o
+*.lo
+*.Plo
 *.ko
 *.obj
 *.elf
 
-# Libraries
+# autotools files
+*.pc
+compile
+config.guess
+config.sub
+config.status
+depcomp
+elisp-comp
+install-sh
+mdate-sh
+missing
+mkinstalldirs
+py-compile
+texinfo.tex
+ylwrap
+aclocal.m4
+libtool
+ltmain.sh
+configure
+test-driver
+Makefile
+Makefile.in
+config.h.in
+
+# libraries
 *.lib
 *.a
+*.la
 
-# Shared objects (inc. Windows DLLs)
+# shared objects (inc. Windows DLLs)
 *.dll
 *.so
 *.so.*
 *.dylib
 
-# Executables
+# executables
 *.exe
 *.out
 *.app
 *.i*86
 *.x86_64
 *.hex
+
+# other files
+*.log
+
+# build use directory
+.libs/
+.deps/
+
+# autotools directory
+builds/m4
+autom4te.cache/

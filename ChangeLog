@@ -1,0 +1,31 @@
+commit 58a86bf8158458da85079e7b23b5d2d00f48200a
+Author: ned rihine <ned.rihine@gmail.com>
+Date:   Sat May 24 11:39:34 2014 +0900
+
+    urchin.h を追加したし、autoscan もした
+
+ .gitignore           |  3 +++
+ configure.ac         | 20 ++++++++++++++++++++
+ include/uni/urchin.h |  5 +++++
+ 3 files changed, 28 insertions(+)
+
+commit 5af8cbf0124e03f5ddf3aebda6ee0c865d75f144
+Author: ned rihine <ned.rihine@gmail.com>
+Date:   Sat May 24 00:17:27 2014 +0900
+
+    まずは main.c からだよね！ (ぺろ
+
+ .gitignore |  5 +++++
+ src/main.c | 11 +++++++++++
+ 2 files changed, 16 insertions(+)
+
+commit 8693de82d31e076d29da426eb82de01012d974de
+Author: りひにー <ned.rihine@gmail.com>
+Date:   Fri May 23 07:36:00 2014 -0700
+
+    Initial commit
+
+ .gitignore |  23 +++
+ LICENSE    | 674 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ README.md  |   4 +
+ 3 files changed, 701 insertions(+)
