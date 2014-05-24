@@ -3,6 +3,9 @@
 \#*#
 *~
 
+# other files
+*.log
+
 # Object files
 *.o
 *.ko
