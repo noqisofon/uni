@@ -13,7 +13,7 @@ ACLOCAL_AMFILES = -I builds/m4
 dist-hook: changelog
 
 # git のログから ChangeLog を生成します。
-changelog: $(top_src)/.git/HEAD
+changelog: .git/HEAD
 	git log --stat > ChangeLog
 
 # doxygen を使ってドキュメントを生成します。

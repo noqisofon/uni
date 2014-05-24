@@ -1,3 +1,26 @@
+commit f2db9240c1c232621704283b27d63aba02d88b01
+Author: ned rihine <ned.rihine@gmail.com>
+Date:   Sat May 24 12:15:02 2014 +0900
+
+    autotools った
+
+ .gitignore              |  52 +++-
+ AUTHORS                 |   0
+ COPYING                 | 674 ++++++++++++++++++++++++++++++++++++++++++++++++
+ ChangeLog               |  31 +++
+ INSTALL                 | 370 ++++++++++++++++++++++++++
+ Makefile.am             |  21 ++
+ NEWS                    |   0
+ README                  |   0
+ builds/.gitkeep         |   0
+ builds/m4/.gitkeep      |   0
+ configure.ac            |  38 ++-
+ include/Makefile.am     |   0
+ include/uni/Makefile.am |   0
+ src/Makefile.am         |   0
+ tests/.gitkeep          |   0
+ 15 files changed, 1177 insertions(+), 9 deletions(-)
+
 commit 58a86bf8158458da85079e7b23b5d2d00f48200a
 Author: ned rihine <ned.rihine@gmail.com>
 Date:   Sat May 24 11:39:34 2014 +0900
