@@ -50,7 +50,7 @@ test-driver
 *.so
 *.so.*
 *.dylib
-uni
+src/uni
 
 # executables
 *.exe
