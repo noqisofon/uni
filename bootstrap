@@ -1,0 +1,11 @@
+#!/usr/bin/sh
+
+libtoolize -c
+automake -a -c
+autoreconf
+
+echo "You can now ran './configure'"
+
+exit 0
+
+### bootstrap ends here
